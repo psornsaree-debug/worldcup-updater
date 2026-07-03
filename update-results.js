@@ -11,7 +11,7 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 
 // ── 1) Firebase config (ชุดเดียวกับใน index.html) ────────────────────────────
 const firebaseConfig = {
-     apiKey: "AIzaSyA1DIp10ZD-ox-SDRFmNPAsHd1YctEx4nA",
+     apiKey: "AIzaSyA1DIp1OZD-ox-SDRFmNPAsHd1YctEx4nA",
      authDomain: "wtf-fifa-2026.firebaseapp.com",
      projectId: "wtf-fifa-2026",
      storageBucket: "wtf-fifa-2026.firebasestorage.app",
