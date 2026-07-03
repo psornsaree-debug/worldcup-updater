@@ -1,0 +1,14 @@
+{
+  "name": "worldcup-auto-updater",
+  "version": "1.0.0",
+  "description": "ดึงผลบอลจาก football-data.org มาอัปเดตเว็บทายผลบอลโลกอัตโนมัติ",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node update-results.js",
+    "watch": "node update-results.js --watch"
+  },
+  "dependencies": {
+    "firebase": "^10.12.2"
+  }
+}
