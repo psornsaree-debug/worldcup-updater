@@ -11,13 +11,13 @@ import { getAuth, signInAnonymously } from "firebase/auth";
 
 // ── 1) Firebase config (ชุดเดียวกับใน index.html) ────────────────────────────
 const firebaseConfig = {
-  apiKey: "AIzaSyA1DIp10ZD-ox-SDRFmNPAsHd1YctEx4nA",
-  authDomain: "wtf-fifa-2026.firebaseapp.com",
-  projectId: "wtf-fifa-2026",
-  storageBucket: "wtf-fifa-2026.firebasestorage.app",
-  messagingSenderId: "162163945307",
-  appId: "1:162163945307:web:010519882adecfbf0a747e",
-};
+     apiKey: "AIzaSyA1DIp10ZD-ox-SDRFmNPAsHd1YctEx4nA",
+     authDomain: "wtf-fifa-2026.firebaseapp.com",
+     projectId: "wtf-fifa-2026",
+     storageBucket: "wtf-fifa-2026.firebasestorage.app",
+     messagingSenderId: "162163945307",
+     appId: "1:162163945307:web:010519882adecfbf0a747e",
+   };
 
 // ── 2) ตั้งค่า API ───────────────────────────────────────────────────────────
 // สมัครคีย์ฟรีที่ https://www.football-data.org/client/register
