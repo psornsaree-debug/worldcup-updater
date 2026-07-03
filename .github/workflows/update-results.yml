@@ -22,7 +22,7 @@ const firebaseConfig = {
 // ── 2) ตั้งค่า API ───────────────────────────────────────────────────────────
 // สมัครคีย์ฟรีที่ https://www.football-data.org/client/register
 // ใส่ผ่าน environment variable FD_API_KEY หรือแก้ค่า default ด้านล่าง
-const API_KEY = process.env.FD_API_KEY || "PASTE_FOOTBALL_DATA_API_KEY";
+const API_KEY = process.env.FD_API_KEY || "09a96748e54344e6a38f0278c4feaece";
 const COMPETITION = process.env.FD_COMPETITION || "WC"; // WC = ฟุตบอลโลก
 const POLL_MS = 90 * 1000;
 const WATCH = process.argv.includes("--watch");
